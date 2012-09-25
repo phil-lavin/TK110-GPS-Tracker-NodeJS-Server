@@ -29,6 +29,7 @@ Installation
 * cd into the clone directory
 * Run the command `npm link`
 * Copy config.sample.js to config.js and edit accordingly
+* Import doc/db.sql into your database
 
 Running
 -------
@@ -40,3 +41,8 @@ Output
 ------
 
 You will see output when a tracker device connects, when a new point is logged and an existing point is updated (because the tracker is stationary).
+
+Database
+--------
+
+Database structure can be found at doc/db.sql.
