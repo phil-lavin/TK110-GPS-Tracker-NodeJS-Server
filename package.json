@@ -1,3 +1,30 @@
-"dependencies": {
-	"mysql": "2.0.0-alpha3",
+{
+  "name": "TK110-GPS-Tracker-NodeJS-Server",
+  "preferGlobal": "true",
+  "version": "0.1.0",
+  "author": "Phil Lavin <phil@lavin.me.uk>",
+  "description": "A NodeJS Server for Recording Information sent by TK110 or similar GPS Trackers",
+  "bin": {
+    "http-server": "tracker.js"
+  },
+  "scripts": {
+    "start": "node ./tracker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phil-lavin/TK110-GPS-Tracker-NodeJS-Server.git"
+  },
+  "keywords": [
+    "cli",
+    "TK110",
+    "gps"
+  ],
+  "dependencies" : {
+    "mysql": "2.0.0-alpha3"
+  },
+  "analyze": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
 }
