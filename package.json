@@ -1,0 +1,3 @@
+"dependencies": {
+	"mysql": "2.0.0-alpha3",
+}
