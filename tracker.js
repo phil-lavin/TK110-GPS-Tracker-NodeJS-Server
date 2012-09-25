@@ -154,6 +154,6 @@ var server = net.createServer(function(c) {
 	});
 });
 
-server.listen(5674, function() { //'listening' listener
+server.listen(config.listen_port, function() { //'listening' listener
 	console.log('Server Bound');
 });
